@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
+	//POSTMAN collections
+	//https://www.getpostman.com/collections/4ed0635bcb6c137b1dd9
 	app := fiber.New()
 	app.Use(logger.New())
 
